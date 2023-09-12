@@ -8,7 +8,71 @@
     }
     
 }
+
+
+
+/* FLEXBOC PRACTICE*/
  
+/* Flex direction
+    row
+    row-reverse
+    column
+    column-reverse
+*/
+/* Flex-wrap: wrap
+    controls direction and multiline of items
+ */
+
+
+
+/*  background-color    
+        VERY GOOD FOR DEBUGGING! (spave for element and size)   
+*/
+/* justify-content
+        space == positioning    
+*/
+
+
+
+
+.container {    /*  House */
+    display: flex;    /*  Children  */
+    flex-wrap: wrap;    
+    background-color: deepskyblue;  /*  Children  */
+    flex-direction: row;   /*  Children  */
+    justify-content:flex-end;
+
+
+}
+            /*  Play around */
+.container  > p    {
+    background-color: black;
+    color: aliceblue;
+    font-size: 2rem;
+
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 16px;
+
+
+}
+
+
+
+/*  GRID-CONTAINER*/
+.grid-container {
+   background-color: skyblue;
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-container > p {
+    background-color: black;
+    color: aliceblue;
+    font-size: 2rem;
+}
 
 
 
